@@ -1,0 +1,61 @@
+/*RESPONSIVE HEADER*/
+@media (min-width: 500px) {
+  header {
+    text-align: center;
+  }
+  .header {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  .name-title {
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .name-cargo {
+    display: inline-block;
+    margin-left: 1em;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  /*RESPONSIVE DATOS PERSONALES Y QUIEN SOY*/
+  .dt-personales {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .dtp,
+  .qs {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+  }
+
+  /*FORMACION EDUACIONAL*/
+  .education {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*EXPERIENCIA*/
+  .experiencia {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /*HERREAMIENTAS*/
+  .herramientas {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .referidos {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
